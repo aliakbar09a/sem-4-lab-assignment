@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int cost1[10][10],cost2[10][10],visited[10]={0},mincost1=0,mincost2=0,min1,min2,parent[10];
 int a,b,u,v,n,i,j,ne1=1,ne2=1,c;
 int find(int i)
